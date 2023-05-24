@@ -238,6 +238,11 @@
           <p>
             I received my Ph.D. in June 2022 from the <a target="_blank" href="https://www.washington.edu/">University of Washington</a> where I worked with <a target="_blank" href="https://people.eecs.berkeley.edu/~akcheung/">Alvin Cheung</a> as part of the <a target="_blank" href="https://uwplse.org/">Programming Languages & Software Engineering</a> group. I received my B.S. in Computer Science in June 2014 from the <a target="_blank" href="http://nu.edu.pk/">National University of Computer & Emerging Sciences</a> and was awarded the University Silver Medal for highest standing in the graduating class. When not doing research, I spend my days chossineering in the Cascades or cooking food for my friends.
           </p>
+          <br/>
+          <p>
+            I am always excited to work with interns. If you are interested in an internship at Adobe Research (Summer 2024), send me an email.
+          </p>
+
           <!--<br/>
           <p>
             <b>I am currently hiring interns for Summer 2023!</b> If you are interested in collaborating with me, here is what you need to know:
@@ -271,6 +276,23 @@
         <div class="projects">
           <br/>
           <h2>Projects</h2><hr/>
+
+          <div class="project">
+            <div class="teaser">
+              <center>
+              <img style="width:80%" src="img/reparamcad.png"/>
+              </center>
+            </div>
+            <div class="details">
+              <h3>ReparamCAD <span class="label label-success">active</span></h3>
+              <p>ReparamCAD is a tool for automatically reparameterizing 3D CAD models to facilitate
+                seamless design exploration. ReparamCAD employs a neurosymbolic approach, leveraging
+                foundational language and diffusion models to generate compelling and valid variations
+                of the input model, and symbolic analysis to discover geometric constraints that hold
+                across the shape class.</p>
+              <p><a target="_blank" href="https://rootjalex.github.io/asplos2024.html">Website</a></p>
+            </div>
+          </div>
           
           <div class="project">
             <div class="teaser">
@@ -279,8 +301,9 @@
               </center>
             </div>
             <div class="details">
-              <h3>Pitchfork <span class="label label-success">active</span></h3>
+              <h3>Pitchfork <span class="label label-primary">inactive</span></h3>
               <p>Pitchfork is an instruction selection system for high-performance fixed-point computing, centered around a new fixed-point IR (FPIR). Pitchfork uses a set of term-rewriting systems to lift the input code to FPIR before lowering it to target fixed-point instructions. Offline synthesis is used to infer new rules that enable cheap semantic reasoning at compile time.</p>
+              <p><a target="_blank" href="https://rootjalex.github.io/asplos2024.html">Website</a></p>
             </div>
           </div>
 
@@ -341,6 +364,13 @@
               
           <h2>Publications</h2><hr/>
 
+          <div class="pub">
+            <p class="pub-details">
+              <a><span>Fast Instruction Selection for Fast Digital Signal Processing</span></a><br/>
+              Alexander J. Root, <b>Maaz Bin Safeer Ahmad</b>, Andrew Adams, Dillon Sharlet, Shoaib Kamil and Jonathan Ragan-Kelley</br>
+              <span class="pub-links"><a href="https://www.asplos-conference.org/asplos2024/">ASPLOS 2024 (To Appear)</a></span>
+            </p>
+          </div>
           <div class="pub">
             <p class="pub-details">
               <a target="_blank"  href="papers/sigasia19.pdf"><span>Vector Instruction Selection for Digital Signal Processors using Program Synthesis</span></a><br/>
@@ -405,33 +435,3 @@
       </div>
   </body>
 </html>
-
-
-<!--
-          <div class="project">
-            <div class="teaser">
-              <center>
-              <img style="width:70%" src="img/no-logo.jpg"/>
-              </center>
-            </div>
-            <div class="details">
-              <h3>Kriek <span class="label label-success">active</span></h3>
-              <p>Kriek is a new DSL for high-performance tensor computation. Our vision for this IR is to use scheduling primitives coupled with learned cost-models to decompose algorithms hierarchically into smaller sub-problems, which are then implemented dynamically using program synthesis.This project is a collaborative effort with <a target="_blank" href="https://homes.cs.washington.edu/~bodik/">Rastislav Bodik</a>, <a target="_blank" href="http://samk.name/">Sam Kaufman</a> and <a target="_blank" href="https://kdrewniak.com/">Krzysztof Drewniak</a>.</p>
-            </div>
-          </div>
--->
-
-<!--
-          <div class="project">
-            <div class="teaser">
-              <center>
-              <img style="width:95%; padding-top: 40px;" src="img/metalift.jpg"/>
-              </center>
-            </div>
-            <div class="details">
-              <h3>MetaLift <span class="label label-success">active</span></h3>
-              <p>MetaLift is a framework for building compilers that target domain-specific languages (DSLs). Unlike traditional syntax-driven compilers, which consists of rules that recognize patterns in the input code and translate them into the target language, MetaLift uses verified lifting to search for possible candidate programs in the target language that the given input can be translated to. This frees the developer from the need to devise, check, and maintain those pesky syntax-driven rules!</p>
-              <p><a target="_blank" href="http://metalift.uwplse.org/">Project Website</a></p>
-            </div>
-          </div>
--->
