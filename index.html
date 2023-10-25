@@ -8,7 +8,7 @@
     <title>Maaz Bin Safeer Ahmad - Research Scientist @ Adobe.</title>
     <meta name="description" content="Hello! I am a research scientist at Adobe, specializing in programming systems research.
 
-    My work focuses on harnessing the advances in program synthesis and machine learning to develop tools that enable programmers to write high-level programs that function as well or better than manually crafted low-level programs created by experts.
+    My work focuses on harnessing the advances in program synthesis and AI to develop tools that enable programmers to write high-level programs that function as well or better than manually crafted low-level programs created by experts.
           
     I received my Ph.D. in June 2022 from the University of Washington where I worked with Alvin Cheung as part of the Programming Languages & Software Engineering group. I received my B.S. in Computer Science in June 2014 from the National University of Computer & Emerging Sciences and was awarded the University Silver Medal for highest standing in the graduating class. When not doing research, I spend my days chossineering in the Cascades or cooking food for my friends.">
 
@@ -196,7 +196,7 @@
 
       <div class="content">
         <div class="contact-card">
-          <img src="img/dp.jpg"/>
+          <img src="img/dp2.jpg"/>
           <p>
             <span class="glyphicon glyphicon-envelope"></span> 
             <a style="pointer-events: none;" href="">mahmad AT adobe DOT com</a>
@@ -211,11 +211,11 @@
             <span style="margin-left:25px">Box 352350</span><br/>
             <span style="margin-left:25px">185 Stevens Way</span><br />
             <span style="margin-left:25px">Seattle, WA. 98195-2350</span></a>
-          </p>
+          </p>-->
           <p>
             <span class="glyphicon glyphicon-list-alt"></span>
-            <a target="_blank" href="CV_2020_2.pdf">Curriculum Vitae</a>
-          </p>-->
+            <a target="_blank" href="CV_2023.pdf">Curriculum Vitae</a>
+          </p>
           <p>
             <span class="glyphicon glyphicon-book"></span>
             <a target="_blank" href="https://scholar.google.com/citations?user=pym_XKMAAAAJ&hl=en">Google Scholar</a>
@@ -232,50 +232,59 @@
           </p>
           <br/>
           <p>
-            My work focuses on harnessing the advances in program synthesis and machine learning to develop tools that enable programmers to write high-level programs that function as well or better than manually crafted low-level programs created by experts.
+            My research focuses on three central themes. Firstly, I am interested in designing tools that ease the development of high-performance programs, with a focus on compilers and program synthesis. Secondly, I am interested in practical techniques for improving program correctness, such as fuzzing, mutation testing and automatic program verification. Lastly, I am interested in empowering designers by creating domain-specific programming languages that increase accessibility and expressivity in design.
           </p>
           <br/>
           <p>
-            I received my Ph.D. in June 2022 from the <a target="_blank" href="https://www.washington.edu/">University of Washington</a> where I worked with <a target="_blank" href="https://people.eecs.berkeley.edu/~akcheung/">Alvin Cheung</a> as part of the <a target="_blank" href="https://uwplse.org/">Programming Languages & Software Engineering</a> group. I received my B.S. in Computer Science in June 2014 from the <a target="_blank" href="http://nu.edu.pk/">National University of Computer & Emerging Sciences</a> and was awarded the University Silver Medal for highest standing in the graduating class. When not doing research, I spend my days chossineering in the Cascades or cooking food for my friends.
+            I received my Ph.D. in 2022 from the <a target="_blank" href="https://www.washington.edu/">University of Washington</a> where I worked with <a target="_blank" href="https://people.eecs.berkeley.edu/~akcheung/">Alvin Cheung</a> as part of the <a target="_blank" href="https://uwplse.org/">Programming Languages & Software Engineering</a> group. I received my B.S. in Computer Science in June 2014 from the <a target="_blank" href="http://nu.edu.pk/">National University of Computer & Emerging Sciences</a> and was awarded the University Silver Medal for highest standing in the graduating class. When not doing research, I spend my days chossineering in the Cascades or cooking food for my friends.
           </p>
           <br/>
           <p>
-            I am always excited to work with interns. If you are interested in an internship at Adobe Research (Summer 2024), send me an email.
+            I am always excited to work with interns. If you are interested in an internship at Adobe Research (Summer 2024) and your research interest line up with mine, send me an email!
           </p>
-
-          <!--<br/>
-          <p>
-            <b>I am currently hiring interns for Summer 2023!</b> If you are interested in collaborating with me, here is what you need to know:
-          </p>
-
-          <ul>
-            <li>
-              These are research internships and most interns are graduate students. If you are not in grad school, make sure to include enough detail.
-            </li>
-            <li>
-              I am collaborating with people who share the same research interests as me. This page should help you figure out this point.
-            </li>
-            <li>
-              Tell me what you have done in the past in terms of research, and what you would like to do during your internship.
-            </li>
-            <li>
-              Most interns come for three months during the summer but other options are possible.
-            </li>
-            <li>
-              Contact me at least a few months in advance -- most internship slots are filled 5-6 months ahead of time!
-            </li>
-            <li>
-              The number of slots is limited. Unfortunately, we cannot accept everyone.
-            </li>
-            <li>
-              I do not reply to generic requests. Make sure that your message shows that you know who I am.
-            </li>
-          </p>
-          <br/>-->
         </div>
+
         <div class="projects">
           <br/>
           <h2>Projects</h2><hr/>
+
+          <div class="project">
+            <div class="teaser">
+              <center>
+              <img style="width:80%" src="img/mutants.jpg"/>
+              </center>
+            </div>
+            <div class="details">
+              <h3>Mutation Testing <span class="label label-success">active</span></h3>
+              <p>Mutation testing is a technique that finds untested or undertested code in your codebase by injecting artificial defects and checking whether those defects can be detected by the existing test suite. Our goal is to develop mature mutation testing infrastructure and techniques that allow us to scale this idea to complex industrial C/C++ code.</p>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="teaser">
+              <center>
+              <img style="width:80%; border-radius: 10%;" src="img/martha_mitten.jpg"/>
+              </center>
+            </div>
+            <div class="details">
+              <h3>Knitting DSL <span class="label label-success">active</span></h3>
+              <p>In Knitting, there are numerous ways to knit a particular <i>shape</i> and the <i>design</i> of the knitted object is often a product of how the object was fabricated, i.e., starting panel choice, knitting direction, seaming strategy, etc. Our goal is to design a domain-specific language for knitting that allows us to capture, in a concise and high-level abstraction, the knitted designs by describing the fabrication plan.</p>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="teaser">
+              <center>
+              <img style="width:80%" src="img/2d_cad.jpg"/>
+              </center>
+            </div>
+            <div class="details">
+              <h3>Synthesizing 2D Designs Using LLMs <span class="label label-success">active</span></h3>
+              <p>Our goal is to build a system that combines tranditional CAD solvers, large-language models and a
+              new domain-specific language, to enable users to (consistently and reliably) synthesize 2D CAD programs 
+              by simply describing the target object in natural language.</p>
+            </div>
+          </div>
 
           <div class="project">
             <div class="teaser">
@@ -284,12 +293,15 @@
               </center>
             </div>
             <div class="details">
-              <h3>CAD Re-parameterization <span class="label label-success">active</span></h3>
-              <p>Our goal is to build a tool for automatically reparameterizing 3D CAD models to facilitate
-                seamless design exploration. We employ a neurosymbolic approach, leveraging
-                foundational language and diffusion models to generate compelling and valid variations
-                of the input model, and symbolic analysis to discover geometric constraints that hold
-                across the shape class.</p>
+              <h3>ReparamCAD <span class="label label-primary">inactive</span></h3>
+              <p>Parametric CAD models encode entire families of shapes that should, in principle, be easy 
+                for designers to explore. However, in practice, parametric CAD models can be difficult to 
+                manipulate due to implicit semantic constraints among parameter values. We introduce a zero-shot 
+                pipeline that leverages pre-trained large language and image model to infer meaningful space of 
+                variations for a shape. We then re-parameterize a new constrained parametric CAD program that 
+                captures these variations, enabling effortless exploration of the design space along meaningful 
+                design axes.</p>
+              <p><a target="_blank" href="papers/sigasia23.pdf">Publication</a></p>
             </div>
           </div>
           
@@ -302,7 +314,7 @@
             <div class="details">
               <h3>Pitchfork <span class="label label-primary">inactive</span></h3>
               <p>Pitchfork is an instruction selection system for high-performance fixed-point computing, centered around a new fixed-point IR (FPIR). Pitchfork uses a set of term-rewriting systems to lift the input code to FPIR before lowering it to target fixed-point instructions. Offline synthesis is used to infer new rules that enable cheap semantic reasoning at compile time.</p>
-              <p><a target="_blank" href="https://rootjalex.github.io/asplos2024.html">Website</a></p>
+              <p><a target="_blank" href="papers/asplos23.pdf">Publication</a> &middot; <a target="_blank" href="https://rootjalex.github.io/asplos2023.html">Website</a></p>
             </div>
           </div>
 
@@ -363,20 +375,62 @@
               
           <h2>Publications</h2><hr/>
 
+    <!--      
+[3] A. Cheung, M. B. S. Ahmad, B. Haynes, C. Kittivorawong, S. Laddad, X. Liu, C. Wang, C. Yan,
+“Towards Auto-Generated Data Systems,” VLDB 2023
+[4] M. B. S. Ahmad, A. J. Root, A. Adams, S. Kamil, J. Ragan-Kelley, “Vector Instruction Selection
+for Digital Signal Processors using Program Synthesis,” ASPLOS 2022
+[5] M. B. S. Ahmad, J. Ragan-Kelley, A. Cheung and S. Kamil, “Automatically Translating Image
+Processing Libraries to Halide,” SIGGRAPH Asia 2019
+[6] M. B. S. Ahmad and A. Cheung, “Automatically Leveraging MapReduce Frameworks for
+Data-Intensive Applications,” SIGMOD 2018
+[7] M. B. S. Ahmad and A. Cheung, “Optimizing Data-Intensive Applications Automatically By
+Leveraging Parallel Data Processing Frameworks,” SIGMOD 2017 (Demo) – Honourable
+Mention for Best Demo Award
+[8] G. Fedyukovich, M. B. S. Ahmad and R. Bodik, “Gradual Synthesis for Static Parallelization of
+Single-Pass Array-Processing Programs,” PLDI 2017
+[9] M. B. S. Ahmad and A. Cheung, “Leveraging Parallel Data Processing Frameworks with Verified
+Lifting,” SYNT 2016 – Best Student Paper Award
+[10] T. Ahmad, N. A. Rehman, F. Pervaiz, S. Kalyanaraman, M. B. S. Ahmad, S. Chakraborty,
+L. Subramanian, U. Saif, “Characterizing dengue spread and severity using internet media
+sources,” ACM DEV 2013
+Page 1 of 2
+
+
+-->
+
           <div class="pub">
             <p class="pub-details">
-              <a><span>Fast Instruction Selection for Fast Digital Signal Processing</span></a><br/>
-              Alexander J. Root, <b>Maaz Bin Safeer Ahmad</b>, Andrew Adams, Dillon Sharlet, Shoaib Kamil and Jonathan Ragan-Kelley</br>
-              <span class="pub-links"><a href="https://www.asplos-conference.org/asplos2024/">ASPLOS 2024 (To Appear)</a></span>
+              <a target="_blank" href="papers/sigasia23.pdf"><span>ReparamCAD: Zero-shot CAD Program Re-Parameterization for Interactive Manipulation</span></a><br/>
+              Milin Kodnongbua, Benjamin T. Jones, <b>Maaz Bin Safeer Ahmad</b>, Vladimir G. Kim and Adriana Schulz</br>
+              <span class="pub-links"><a target="_blank" href="https://sa2023.siggraph.org/">SIGGRAPH ASIA 2023 (To Appear)</a></span>
             </p>
           </div>
+
           <div class="pub">
             <p class="pub-details">
-              <a target="_blank"  href="papers/sigasia19.pdf"><span>Vector Instruction Selection for Digital Signal Processors using Program Synthesis</span></a><br/>
+              <a target="_blank"  href="papers/vldb23.pdf"><span>Towards Auto-Generated Data Systems</span></a><br/>
+              Alvin Cheung, <b>Maaz Bin Safeer Ahmad</b>, Brandon Haynes, Chanwut Kittivorawong, Shadaj Laddad, Xiaoxuan Liu, Chenglong Wang and Cong Yan</br>
+              <span class="pub-links"><a target="_blank" href="https://vldb.org/2023/">VLDB 2023</a> <b>&middot;</b> <a target="_blank" href="bibtex/vldb23.bib">BibTex</a> <b>&middot;</b> <a target="_blank" href="https://dl.acm.org/doi/10.14778/3611540.3611635">DOI</a></span>
+            </p>
+          </div>
+
+          <div class="pub">
+            <p class="pub-details">
+              <a target="_blank" href="papers/asplos23.pdf"><span>Fast Instruction Selection for Fast Digital Signal Processing</span></a><br/>
+              Alexander J. Root, <b>Maaz Bin Safeer Ahmad</b>, Andrew Adams, Dillon Sharlet, Shoaib Kamil and Jonathan Ragan-Kelley</br>
+              <span class="pub-links"><a target="_blank" href="https://www.asplos-conference.org/asplos2023/">ASPLOS 2023</a> <b>&middot;</b> <a target="_blank" href="https://doi.org/10.1145/3623278.3624768">DOI</a></span>
+            </p>
+          </div>
+
+          <div class="pub">
+            <p class="pub-details">
+              <a target="_blank"  href="papers/asplos22.pdf"><span>Vector Instruction Selection for Digital Signal Processors using Program Synthesis</span></a><br/>
               <b>Maaz Bin Safeer Ahmad</b>, Alexander J. Root, Andrew Adams, Shoaib Kamil and Alvin Cheung</br>
               <span class="pub-links"><a target="_blank" href="https://asplos-conference.org/2022/index.html">ASPLOS 2022</a> <b>&middot;</b> <a target="_blank" href="bibtex/asplos22.bib">BibTex</a> <b>&middot;</b> <a target="_blank" href="https://dl.acm.org/doi/10.1145/3503222.3507714">DOI</a> &middot; <a target="_blank" href="https://youtu.be/I3yLfsieTQ8">Talk</a></span>
             </p>
           </div>
+          
           <div class="pub">
             <p class="pub-details">
               <a target="_blank"  href="papers/sigasia19.pdf"><span>Automatically Translating Image Processing 
@@ -385,6 +439,7 @@
               <span class="pub-links"><a target="_blank" href="https://sa2019.siggraph.org/">SIGGRAPH ASIA 2019</a> <b>&middot;</b> <a target="_blank" href="bibtex/sigasia19.bib">BibTex</a> <b>&middot;</b> <a target="_blank" href="https://dl.acm.org/doi/10.1145/3355089.3356549">DOI</a> &middot; <a target="_blank" href="slides/sigasia19.pdf">Slides</a></span>
             </p>
           </div>
+
           <div class="pub">
             <p class="pub-details">
               <a target="_blank" href="papers/sigmod18.pdf"><span>Automatically Leveraging MapReduce 
